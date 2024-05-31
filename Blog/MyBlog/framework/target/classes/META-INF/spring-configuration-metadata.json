@@ -1,0 +1,32 @@
+{
+  "groups": [
+    {
+      "name": "oss",
+      "type": "com.my.blog.service.impl.OSSUploadServiceImpl",
+      "sourceType": "com.my.blog.service.impl.OSSUploadServiceImpl"
+    }
+  ],
+  "properties": [
+    {
+      "name": "oss.access-key",
+      "type": "java.lang.String",
+      "sourceType": "com.my.blog.service.impl.OSSUploadServiceImpl"
+    },
+    {
+      "name": "oss.bucket",
+      "type": "java.lang.String",
+      "sourceType": "com.my.blog.service.impl.OSSUploadServiceImpl"
+    },
+    {
+      "name": "oss.host",
+      "type": "java.lang.String",
+      "sourceType": "com.my.blog.service.impl.OSSUploadServiceImpl"
+    },
+    {
+      "name": "oss.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.my.blog.service.impl.OSSUploadServiceImpl"
+    }
+  ],
+  "hints": []
+}
