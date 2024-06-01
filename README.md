@@ -1,3 +1,17 @@
-这是一个前后端结合的博客项目系统，文件中Myblog是idea编写的，包含前台和后台的代码；ptu-blog-vue(1)与x-admin-web是vscode编写的，前者为用户登录入口，后者为管理员登录入口。运行时需分别前后端一一对应运行。
-运行Myblog中blog部分的代码，接着运行ptu-blog-vue(1) 即在集成终端输入：npm run dev，复制输出结果的地址前往浏览器即可。
-运行Myblog中admin部分的代码，接着运行x-admin-web 即在集成终端输入：先npm install，在npm run dev ，复制输出结果的地址前往浏览器即可。
+
+This is a combined frontend and backend blog project system. The Myblog directory, written in IntelliJ IDEA, contains both frontend and backend code. The ptu-blog-vue(1) and x-admin-web directories are written in Visual Studio Code; the former serves as the user login portal, and the latter serves as the admin login portal.
+
+To run the project, you need to run the frontend and backend parts correspondingly.
+
+For the User Login Portal:
+
+Run the blog part of the code in the Myblog directory.
+Then, navigate to the ptu-blog-vue(1) directory and enter the following command in the integrated terminal: npm run dev.
+Copy the address output from the terminal and open it in your browser.
+For the Admin Login Portal:
+
+Run the admin part of the code in the Myblog directory.
+Then, navigate to the x-admin-web directory and enter the following commands in the integrated terminal:
+npm install
+npm run dev
+Copy the address output from the terminal and open it in your browser.
